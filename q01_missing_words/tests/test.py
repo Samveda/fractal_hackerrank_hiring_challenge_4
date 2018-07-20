@@ -10,10 +10,10 @@ from unittest import TestCase
 from inspect import getfullargspec
 
 s='I want two apples and two oranges'
-t='I want two mangoes'
+t='I want two green apples'
 
 common=q01_missing_words(s,t)
-c_list=['apples', 'and', 'two', 'oranges']
+c_list=['and', 'two', 'oranges']
 
 class TestRead_csv_data_to_df(TestCase):
     def test_argument_size(self):

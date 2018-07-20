@@ -1,4 +1,3 @@
-#=
 
 s='I want two apples and two oranges'
 t='I want two green apples'

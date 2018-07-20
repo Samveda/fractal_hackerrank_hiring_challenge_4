@@ -25,6 +25,6 @@ class TestRead_csv_data_to_df(TestCase):
                               "The Expected return type does not match with the given return type")
 
     def test_common_list(self):
-        self.assertListEqual(sorted(common), sorted(c_list), "The missing elements not found properly ")    
+        self.assertListEqual(common, c_list, "The missing elements not found properly ")    
     
     

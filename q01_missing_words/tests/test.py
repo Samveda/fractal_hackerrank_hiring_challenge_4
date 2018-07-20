@@ -18,7 +18,7 @@ c_list=['and', 'two', 'oranges']
 class TestRead_csv_data_to_df(TestCase):
     def test_argument_size(self):
         arg = getfullargspec(q01_missing_words).args
-        self.assertEqual(len(arg), 3, "Expected argument(s) %d, Given %d" % (2, len(arg)))
+        self.assertEqual(len(arg), 2, "Expected argument(s) %d, Given %d" % (2, len(arg)))
 
     def test_return_instance(self):
         self.assertIsInstance(common, list,
